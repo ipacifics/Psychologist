@@ -13,13 +13,13 @@
 		AA0132C9152A7C2400DED2C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0132C7152A7C2400DED2C5 /* InfoPlist.strings */; };
 		AA0132CB152A7C2400DED2C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132CA152A7C2400DED2C5 /* main.m */; };
 		AA0132CF152A7C2400DED2C5 /* PsychologistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */; };
-		AA0132D2152A7C2400DED2C5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0132D0152A7C2400DED2C5 /* MainStoryboard.storyboard */; };
 		AA0132D5152A7C2400DED2C5 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132D4152A7C2400DED2C5 /* PsychologistViewController.m */; };
 		AA0132DD152A7C2400DED2C5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0132DC152A7C2400DED2C5 /* SenTestingKit.framework */; };
 		AA0132DE152A7C2400DED2C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0132BE152A7C2400DED2C5 /* UIKit.framework */; };
 		AA0132DF152A7C2400DED2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0132C0152A7C2400DED2C5 /* Foundation.framework */; };
 		AA0132E7152A7C2400DED2C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0132E5152A7C2400DED2C5 /* InfoPlist.strings */; };
 		AA0132EA152A7C2400DED2C5 /* PsychologistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */; };
+		AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */; };
 		AAC70438152BA18F000D7305 /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC70437152BA18F000D7305 /* yuno.png */; };
 		AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */; };
 		AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */; };
@@ -46,7 +46,6 @@
 		AA0132CC152A7C2400DED2C5 /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
 		AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
 		AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistAppDelegate.m; sourceTree = "<group>"; };
-		AA0132D1152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistViewController.h; sourceTree = "<group>"; };
 		AA0132D4152A7C2400DED2C5 /* PsychologistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistViewController.m; sourceTree = "<group>"; };
 		AA0132DB152A7C2400DED2C5 /* PsychologistTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		AA0132E6152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA0132E8152A7C2400DED2C5 /* PsychologistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistTests.h; sourceTree = "<group>"; };
 		AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistTests.m; sourceTree = "<group>"; };
+		AA51F885152E1FB800E09C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AAC70437152BA18F000D7305 /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuno.png; path = ../yuno.png; sourceTree = "<group>"; };
 		AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "y-u-no-guy.jpg"; sourceTree = "<group>"; };
 		AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageFaceNoViewController.h; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */,
 				AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */,
 				AAC70437152BA18F000D7305 /* yuno.png */,
-				AA0132D0152A7C2400DED2C5 /* MainStoryboard.storyboard */,
+				AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */,
 				AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */,
 				AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */,
 				AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */,
@@ -234,9 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0132C9152A7C2400DED2C5 /* InfoPlist.strings in Resources */,
-				AA0132D2152A7C2400DED2C5 /* MainStoryboard.storyboard in Resources */,
 				AAC70438152BA18F000D7305 /* yuno.png in Resources */,
 				AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */,
+				AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,20 +305,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AA0132D0152A7C2400DED2C5 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA0132D1152A7C2400DED2C5 /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		AA0132E5152A7C2400DED2C5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA0132E6152A7C2400DED2C5 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA51F885152E1FB800E09C90 /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
