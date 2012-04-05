@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	AA0132B1152A7C2400DED2C5 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AA9E95A3152D4E2B005983AE /* Psychologist */;
+		activeTarget = AA0132B9152A7C2400DED2C5 /* Psychologist */;
+		codeSenseManager = AA9E95C0152D4E2F005983AE /* Code sense */;
+		executables = (
+			AA9E95A3152D4E2B005983AE /* Psychologist */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355290667;
+			PBXWorkspaceStateSaveDate = 355290667;
+		};
+		sourceControlManager = AA9E95BF152D4E2F005983AE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AA0132B9152A7C2400DED2C5 /* Psychologist */ = {
+		activeExec = 0;
+		executables = (
+			AA9E95A3152D4E2B005983AE /* Psychologist */,
+		);
+	};
+	AA0132DA152A7C2400DED2C5 /* PsychologistTests */ = {
+		activeExec = 0;
+	};
+	AA9E95A3152D4E2B005983AE /* Psychologist */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Psychologist;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AA9E95BF152D4E2F005983AE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AA9E95C0152D4E2F005983AE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -20,6 +20,9 @@
 		AA0132DF152A7C2400DED2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0132C0152A7C2400DED2C5 /* Foundation.framework */; };
 		AA0132E7152A7C2400DED2C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0132E5152A7C2400DED2C5 /* InfoPlist.strings */; };
 		AA0132EA152A7C2400DED2C5 /* PsychologistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */; };
+		AAC70438152BA18F000D7305 /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC70437152BA18F000D7305 /* yuno.png */; };
+		AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */; };
+		AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,25 @@
 		AA0132BE152A7C2400DED2C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA0132C0152A7C2400DED2C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA0132C2152A7C2400DED2C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AA0132C6152A7C2400DED2C5 /* Psychologist-Info.plist */ = {isa = PBXFileReference; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
+		AA0132C6152A7C2400DED2C5 /* Psychologist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
 		AA0132C8152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA0132CA152A7C2400DED2C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA0132CC152A7C2400DED2C5 /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
-		AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
+		AA0132CC152A7C2400DED2C5 /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
+		AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
 		AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistAppDelegate.m; sourceTree = "<group>"; };
-		AA0132D1152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */ = {isa = PBXFileReference; path = PsychologistViewController.h; sourceTree = "<group>"; };
+		AA0132D1152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistViewController.h; sourceTree = "<group>"; };
 		AA0132D4152A7C2400DED2C5 /* PsychologistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistViewController.m; sourceTree = "<group>"; };
 		AA0132DB152A7C2400DED2C5 /* PsychologistTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0132DC152A7C2400DED2C5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AA0132E4152A7C2400DED2C5 /* PsychologistTests-Info.plist */ = {isa = PBXFileReference; path = "PsychologistTests-Info.plist"; sourceTree = "<group>"; };
+		AA0132E4152A7C2400DED2C5 /* PsychologistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PsychologistTests-Info.plist"; sourceTree = "<group>"; };
 		AA0132E6152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA0132E8152A7C2400DED2C5 /* PsychologistTests.h */ = {isa = PBXFileReference; path = PsychologistTests.h; sourceTree = "<group>"; };
+		AA0132E8152A7C2400DED2C5 /* PsychologistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistTests.h; sourceTree = "<group>"; };
 		AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistTests.m; sourceTree = "<group>"; };
+		AAC70437152BA18F000D7305 /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuno.png; path = ../yuno.png; sourceTree = "<group>"; };
+		AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "y-u-no-guy.jpg"; sourceTree = "<group>"; };
+		AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageFaceNoViewController.h; sourceTree = "<group>"; };
+		AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageFaceNoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +120,13 @@
 			children = (
 				AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */,
 				AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */,
+				AAC70437152BA18F000D7305 /* yuno.png */,
 				AA0132D0152A7C2400DED2C5 /* MainStoryboard.storyboard */,
+				AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */,
+				AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */,
 				AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */,
 				AA0132D4152A7C2400DED2C5 /* PsychologistViewController.m */,
+				AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */,
 				AA0132C5152A7C2400DED2C5 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -224,6 +235,8 @@
 			files = (
 				AA0132C9152A7C2400DED2C5 /* InfoPlist.strings in Resources */,
 				AA0132D2152A7C2400DED2C5 /* MainStoryboard.storyboard in Resources */,
+				AAC70438152BA18F000D7305 /* yuno.png in Resources */,
+				AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 				AA0132CB152A7C2400DED2C5 /* main.m in Sources */,
 				AA0132CF152A7C2400DED2C5 /* PsychologistAppDelegate.m in Sources */,
 				AA0132D5152A7C2400DED2C5 /* PsychologistViewController.m in Sources */,
+				AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +444,7 @@
 				AA0132EF152A7C2400DED2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA0132F0152A7C2400DED2C5 /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +453,7 @@
 				AA0132F2152A7C2400DED2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
