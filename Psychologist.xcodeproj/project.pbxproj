@@ -19,7 +19,10 @@
 		AA0132DF152A7C2400DED2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0132C0152A7C2400DED2C5 /* Foundation.framework */; };
 		AA0132E7152A7C2400DED2C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0132E5152A7C2400DED2C5 /* InfoPlist.strings */; };
 		AA0132EA152A7C2400DED2C5 /* PsychologistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */; };
+		AA0281C8152E90DE002E7A26 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA0281C7152E90DE002E7A26 /* images-1.jpeg */; };
+		AA0281CB152E91D8002E7A26 /* AloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0281CA152E91D8002E7A26 /* AloneViewController.m */; };
 		AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */; };
+		AA51F88E152E3EE700E09C90 /* Unknown 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */; };
 		AAC70438152BA18F000D7305 /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC70437152BA18F000D7305 /* yuno.png */; };
 		AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */; };
 		AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */; };
@@ -54,7 +57,11 @@
 		AA0132E6152A7C2400DED2C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA0132E8152A7C2400DED2C5 /* PsychologistTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistTests.h; sourceTree = "<group>"; };
 		AA0132E9152A7C2400DED2C5 /* PsychologistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistTests.m; sourceTree = "<group>"; };
+		AA0281C7152E90DE002E7A26 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		AA0281C9152E91D8002E7A26 /* AloneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AloneViewController.h; sourceTree = "<group>"; };
+		AA0281CA152E91D8002E7A26 /* AloneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AloneViewController.m; sourceTree = "<group>"; };
 		AA51F885152E1FB800E09C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown 2.jpeg"; sourceTree = "<group>"; };
 		AAC70437152BA18F000D7305 /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuno.png; path = ../yuno.png; sourceTree = "<group>"; };
 		AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "y-u-no-guy.jpg"; sourceTree = "<group>"; };
 		AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageFaceNoViewController.h; sourceTree = "<group>"; };
@@ -124,9 +131,13 @@
 				AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */,
 				AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */,
 				AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */,
+				AA0281C9152E91D8002E7A26 /* AloneViewController.h */,
+				AA0281CA152E91D8002E7A26 /* AloneViewController.m */,
 				AA0132D3152A7C2400DED2C5 /* PsychologistViewController.h */,
 				AA0132D4152A7C2400DED2C5 /* PsychologistViewController.m */,
 				AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */,
+				AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */,
+				AA0281C7152E90DE002E7A26 /* images-1.jpeg */,
 				AA0132C5152A7C2400DED2C5 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -237,6 +248,8 @@
 				AAC70438152BA18F000D7305 /* yuno.png in Resources */,
 				AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */,
 				AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */,
+				AA51F88E152E3EE700E09C90 /* Unknown 2.jpeg in Resources */,
+				AA0281C8152E90DE002E7A26 /* images-1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +288,7 @@
 				AA0132CF152A7C2400DED2C5 /* PsychologistAppDelegate.m in Sources */,
 				AA0132D5152A7C2400DED2C5 /* PsychologistViewController.m in Sources */,
 				AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */,
+				AA0281CB152E91D8002E7A26 /* AloneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

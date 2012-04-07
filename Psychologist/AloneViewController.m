@@ -1,48 +1,53 @@
 //
-//  RageFaceNoViewController.m
+//  AloneViewController.m
 //  Psychologist
 //
-//  Created by JY Yang on 4/3/12.
+//  Created by JY Yang on 4/5/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "RageFaceNoViewController.h"
+#import "AloneViewController.h"
 
-@interface RageFaceNoViewController ()
-@property (weak, nonatomic) IBOutlet UIView *rageFaceNoView;
-@property (retain, nonatomic) UILabel *rageLabel;
+@interface AloneViewController ()
+@property (weak, nonatomic) IBOutlet UIView *aloneView;
+@property (retain, nonatomic) UIImageView *lonelyFace;
 @property (weak, nonatomic) NSTimer *drainTimer;
 @end
 
-@implementation RageFaceNoViewController
-@synthesize rageFaceNoView = _rageFaceNoView;
-@synthesize rageLabel = _rageLabel;
+@implementation AloneViewController
+@synthesize aloneView = _aloneView;
+@synthesize lonelyFace = _lonelyFace;
 @synthesize drainTimer = _drainTimer;
 
-- (void)setRandomLocationForView:(UIView *)view
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+/*- (void)setRandomLocationForView:(UIImageView *)view
 {
     CGRect rageBounds = CGRectMake(0.0, 330.0, 320.0, 120.0);
     CGFloat x = arc4random() % (int)rageBounds.size.width + view.frame.size.width/2;
     CGFloat y = arc4random() % (int)rageBounds.size.height + view.frame.size.height*12;
     view.center = CGPointMake(x, y);
-}
+}*/
 
-- (IBAction)addRageLabel:(UIButton *)sender 
+- (IBAction)addLonelyFace:(UIButton *)sender 
 {
-    _rageLabel = [[UILabel alloc] init];
-    _rageLabel.text = @"Rage";
-    _rageLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:17.0];
-    _rageLabel.backgroundColor = [UIColor clearColor];
-    [_rageLabel sizeToFit];
-    [self setRandomLocationForView:_rageLabel];
-    [self.rageFaceNoView addSubview:_rageLabel];
+    _lonelyFace = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"images-1.jpeg"]];
+    _lonelyFace.frame = CGRectMake(arc4random()%300,     arc4random()%125, 100, 100);
+    [self.view addSubview:_lonelyFace];
 }
 
 #define DRAIN_DURATION 3.0
 
 -(void)drain
 {
-    for (UIView *view in self.rageFaceNoView.subviews){
+    for (UIView *view in self.aloneView.subviews){
         CGAffineTransform transform = view.transform;
         if (CGAffineTransformIsIdentity(transform)) {
             UIViewAnimationOptions option = UIViewAnimationCurveLinear;
@@ -58,7 +63,6 @@
                                 view.transform = CGAffineTransformScale(transform, 0.1, 0.1);
                             }completion:^(BOOL finished) {
                                 if (finished) {[view removeFromSuperview];
-                                   ;
                                 }
                             }];
                         };
@@ -69,34 +73,23 @@
     }
 }
 
-#define DRAIN_TIMER 3.0
 
--(void)startDraining
+- (IBAction)notLonelyDraim:(UIButton *)sender 
 {
-    self.drainTimer = [NSTimer scheduledTimerWithTimeInterval:DRAIN_TIMER target:self selector:@selector(drain) userInfo:nil repeats:YES];
+    [self drain];
 }
 
--(void)stopDraining
-{
-    [self.drainTimer invalidate];
-}
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewDidLoad
 {
-    [super viewDidAppear:animated];
-    [self startDraining];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-    [super viewDidDisappear:animated];
-    [self stopDraining];
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload
 {
-    [self setRageFaceNoView:nil];
+    [self setAloneView:nil];
     [super viewDidUnload];
+    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
