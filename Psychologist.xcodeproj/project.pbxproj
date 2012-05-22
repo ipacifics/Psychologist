@@ -23,9 +23,16 @@
 		AA0281CB152E91D8002E7A26 /* AloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0281CA152E91D8002E7A26 /* AloneViewController.m */; };
 		AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA51F884152E1FB800E09C90 /* MainStoryboard.storyboard */; };
 		AA51F88E152E3EE700E09C90 /* Unknown 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */; };
+		AA5BCA59156C36F50039EA5A /* SplendidMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BCA58156C36F50039EA5A /* SplendidMusicViewController.m */; };
+		AA5BCA5D156C3B5B0039EA5A /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5BCA5C156C3B5B0039EA5A /* playButton.png */; };
+		AA5BCA5F156C3C780039EA5A /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5BCA5E156C3C780039EA5A /* PreviousButton.png */; };
+		AA5BCA61156C3C800039EA5A /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5BCA60156C3C800039EA5A /* NextButton.png */; };
+		AA5BCA63156C3C860039EA5A /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5BCA62156C3C860039EA5A /* noArtworkImage.png */; };
+		AA5BCA65156C40A70039EA5A /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5BCA64156C40A70039EA5A /* pauseButton.png */; };
 		AAC70438152BA18F000D7305 /* yuno.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC70437152BA18F000D7305 /* yuno.png */; };
 		AAC7043B152BA4E2000D7305 /* y-u-no-guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */; };
 		AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */; };
+		AACE1E35156AAC3C005253D4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACE1E34156AAC3C005253D4 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +69,18 @@
 		AA0281CA152E91D8002E7A26 /* AloneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AloneViewController.m; sourceTree = "<group>"; };
 		AA51F885152E1FB800E09C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown 2.jpeg"; sourceTree = "<group>"; };
+		AA5BCA57156C36F50039EA5A /* SplendidMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplendidMusicViewController.h; path = ../SplendidMusicViewController.h; sourceTree = "<group>"; };
+		AA5BCA58156C36F50039EA5A /* SplendidMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplendidMusicViewController.m; path = ../SplendidMusicViewController.m; sourceTree = "<group>"; };
+		AA5BCA5C156C3B5B0039EA5A /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		AA5BCA5E156C3C780039EA5A /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
+		AA5BCA60156C3C800039EA5A /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		AA5BCA62156C3C860039EA5A /* noArtworkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noArtworkImage.png; sourceTree = "<group>"; };
+		AA5BCA64156C40A70039EA5A /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 		AAC70437152BA18F000D7305 /* yuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuno.png; path = ../yuno.png; sourceTree = "<group>"; };
 		AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "y-u-no-guy.jpg"; sourceTree = "<group>"; };
 		AAC7043C152BA950000D7305 /* RageFaceNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageFaceNoViewController.h; sourceTree = "<group>"; };
 		AAC7043D152BA950000D7305 /* RageFaceNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageFaceNoViewController.m; sourceTree = "<group>"; };
+		AACE1E34156AAC3C005253D4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACE1E35156AAC3C005253D4 /* MediaPlayer.framework in Frameworks */,
 				AA0132BF152A7C2400DED2C5 /* UIKit.framework in Frameworks */,
 				AA0132C1152A7C2400DED2C5 /* Foundation.framework in Frameworks */,
 				AA0132C3152A7C2400DED2C5 /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +111,7 @@
 		AA0132AF152A7C2400DED2C5 = {
 			isa = PBXGroup;
 			children = (
+				AACE1E34156AAC3C005253D4 /* MediaPlayer.framework */,
 				AA0132C4152A7C2400DED2C5 /* Psychologist */,
 				AA0132E2152A7C2400DED2C5 /* PsychologistTests */,
 				AA0132BD152A7C2400DED2C5 /* Frameworks */,
@@ -125,6 +142,8 @@
 		AA0132C4152A7C2400DED2C5 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
+				AA5BCA57156C36F50039EA5A /* SplendidMusicViewController.h */,
+				AA5BCA58156C36F50039EA5A /* SplendidMusicViewController.m */,
 				AA0132CD152A7C2400DED2C5 /* PsychologistAppDelegate.h */,
 				AA0132CE152A7C2400DED2C5 /* PsychologistAppDelegate.m */,
 				AAC70437152BA18F000D7305 /* yuno.png */,
@@ -138,6 +157,11 @@
 				AAC7043A152BA4E2000D7305 /* y-u-no-guy.jpg */,
 				AA51F88D152E3EE700E09C90 /* Unknown 2.jpeg */,
 				AA0281C7152E90DE002E7A26 /* images-1.jpeg */,
+				AA5BCA64156C40A70039EA5A /* pauseButton.png */,
+				AA5BCA5C156C3B5B0039EA5A /* playButton.png */,
+				AA5BCA5E156C3C780039EA5A /* PreviousButton.png */,
+				AA5BCA60156C3C800039EA5A /* NextButton.png */,
+				AA5BCA62156C3C860039EA5A /* noArtworkImage.png */,
 				AA0132C5152A7C2400DED2C5 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -250,6 +274,11 @@
 				AA51F886152E1FB800E09C90 /* MainStoryboard.storyboard in Resources */,
 				AA51F88E152E3EE700E09C90 /* Unknown 2.jpeg in Resources */,
 				AA0281C8152E90DE002E7A26 /* images-1.jpeg in Resources */,
+				AA5BCA5D156C3B5B0039EA5A /* playButton.png in Resources */,
+				AA5BCA5F156C3C780039EA5A /* PreviousButton.png in Resources */,
+				AA5BCA61156C3C800039EA5A /* NextButton.png in Resources */,
+				AA5BCA63156C3C860039EA5A /* noArtworkImage.png in Resources */,
+				AA5BCA65156C40A70039EA5A /* pauseButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +318,7 @@
 				AA0132D5152A7C2400DED2C5 /* PsychologistViewController.m in Sources */,
 				AAC7043E152BA950000D7305 /* RageFaceNoViewController.m in Sources */,
 				AA0281CB152E91D8002E7A26 /* AloneViewController.m in Sources */,
+				AA5BCA59156C36F50039EA5A /* SplendidMusicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
