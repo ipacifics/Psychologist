@@ -24,6 +24,4 @@
 - (IBAction)nextSong:(id)sender;
 
 
--(void)registerMediaPlayerNotifications;
-
 @end

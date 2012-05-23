@@ -9,6 +9,8 @@
 #import "SplendidMusicViewController.h"
 
 @interface SplendidMusicViewController ()
+-(void)registerMediaPlayerNotifications;
+@property MPMusicPlayerController *splendidPlayer;
 
 @end
 
@@ -19,11 +21,7 @@
 @synthesize titleLabel = _titleLabel;
 @synthesize artistLabel = _artistLabel;
 @synthesize albumLabel = _albumLabel;
-
--(void)registerMediaPlayerNotifications
-{
-    
-}
+@synthesize splendidPlayer = _splendidPlayer;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -35,21 +33,53 @@
     return self;
 }
 
+
+
+-(void)registerMediaPlayerNotifications
+{
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    [notificationCenter addObserver:self selector:@selector(handle_NowPlayingItemChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:_splendidPlayer];
+    [notificationCenter addObserver:self selector:@selector(handle_PlaybackStateChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:_splendidPlayer];
+    [notificationCenter addObserver:self selector:@selector(handle_VolumeChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:_splendidPlayer];
+    [_splendidPlayer beginGeneratingPlaybackNotifications];
+}
+
+-(void) handle_NowPlayingItemChanged: (id)notification
+{
+    MPMediaItem *currentItem = [_splendidPlayer nowPlayingItem];
+    UIImage *artworkImage = [UIImage imageNamed:@"noArtworkImage.png"];
+    MPMediaItemArtwork *artwork = [currentItem valueForProperty:MPMediaItemPropertyArtwork];
+    
+    if (artwork) {
+        artworkImage = [artwork imageWithSize: CGSizeMake(200, 200)];
+    }
+    
+    [_artworkImageView setImage:artworkImage];
+
+    NSString *titleString = [currentItem valueForProperty:MPMediaItemPropertyTitle];
+    if (titleString) {
+        _titleLabel.text = [NSString stringWithFormat:@"Title, %@", titleString];
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    MPMusicPlayerController *splendidPlayer = [MPMusicPlayerController iPodMusicPlayer];
-    [splendidPlayer setQueueWithQuery:[MPMediaQuery songsQuery]];
-    [splendidPlayer play];
-    [_volumeSlider setValue:[splendidPlayer volume]];
-    if ([splendidPlayer playbackState] == MPMusicPlaybackStatePlaying) {
+    _splendidPlayer = [MPMusicPlayerController iPodMusicPlayer];
+    [_splendidPlayer setQueueWithQuery:[MPMediaQuery songsQuery]];
+    [_splendidPlayer play];
+    [_volumeSlider setValue:[_splendidPlayer volume]];
+    if ([_splendidPlayer playbackState] == MPMusicPlaybackStatePlaying) {
         [_playPauseButton setImage:[UIImage imageNamed:@"pauseButton.png"] forState:UIControlStateNormal];
     } else {
-        if ([splendidPlayer playbackState] == MPMusicPlaybackStatePaused) {
+        if ([_splendidPlayer playbackState] == MPMusicPlaybackStatePaused) {
             [_playPauseButton setImage:[UIImage imageNamed:@"playButton.png"] forState:UIControlStateNormal];
-        }
+            [self registerMediaPlayerNotifications];
     }
+  }
 }
+
+
 
 - (void)viewDidUnload
 {
